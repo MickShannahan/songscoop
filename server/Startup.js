@@ -9,7 +9,7 @@ export default class Startup {
   static ConfigureGlobalMiddleware(app) {
     // NOTE Configure and Register Middleware
     let whitelist = [
-      "https://songscoop.herokuapp.com/",
+      "https://song-scoop.herokuapp.com/",
       "http://localhost:8080",
     ];
     let corsOptions = {
